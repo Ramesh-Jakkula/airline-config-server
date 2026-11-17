@@ -14,13 +14,13 @@ spring:
 # Razorpay is currently disabled.
 # We are using Mock Payment Gateway for local development.
 
-#razorpay:
- # api:
-  #  key: rzp_test_SHbyIekhtpodFK
-  #  secret: ut6ntmC7D9z4D9sPGOO6Mzln
+razorpay:
+  api:
+    key: rzp_test_SHbyIekhtpodFK
+    secret: ut6ntmC7D9z4D9sPGOO6Mzln
 
-  #callback:
-  #  base-url: http://localhost:5173
+  callback:
+    base-url: http://localhost:5173
 
 
 eureka:
